@@ -1,0 +1,36 @@
+{
+  "name": "roster-social-media",
+  "version": "1.0.0",
+  "description": "Roster social media ingestion",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wready99/roster-social-media.git"
+  },
+  "keywords": [
+    "roster",
+    "social",
+    "media",
+    "twitter",
+    "yelp",
+    "facebook"
+  ],
+  "author": "William Ready",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wready99/roster-social-media/issues"
+  },
+  "homepage": "https://github.com/wready99/roster-social-media#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-request": "^1.0.0",
+    "fb-node": "^0.1.5",
+    "googleapis": "^12.1.0",
+    "mongoose": "^4.5.8",
+    "twitter": "^1.4.0",
+    "yelp": "^1.0.1"
+  }
+}
